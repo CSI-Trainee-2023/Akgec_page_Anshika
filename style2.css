@@ -3,42 +3,36 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url(loginimg.avif)no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
-body{
+
+
+.hello{
     background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background_akg.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   
 }
 
-div.main{
+.main{
     width: 400px;
     margin: 100px auto 50px auto;
 }
-h2{
+.cssh2{
     text-align: center;
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-div.register{
+.register{
     background-color: rgba(0,0,0,0.5);
     font-size: 18px;
     border-radius: 10px;
-    /* border: 2px solid rgb(255, 255, 255); */
     box-shadow: 2px 2px 15px;   
     color: #fff;
     
 }
-form#register{margin: 40px;}
+#register{
+    margin: 40px;
+}
 label{
     font-family: sans-serif;
     font-size: 18px;
@@ -46,13 +40,11 @@ label{
 }
 input#name{
     width: 300px;
-    /* border: 1px solid #ddd; */
     border-radius: 3px;
     outline: 0;
     padding: 7px;
     background-color: #fff;
-    box-shadow: inset 1px 1px 5px
-    rgba(0,0,0,0.3);
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
 
 }
 input#submit{
@@ -79,3 +71,35 @@ input#submit{
 label,span,h2{
     text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
 }
+.banner
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(background_akg.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 120px;
+    cursor: pointer;
+}
+.heading{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    position: relative;
+    text-align: left;
+}
+
+
+
